@@ -1,0 +1,20 @@
+{
+    "name": "hesami/sms",
+    "autoload": {
+        "psr-4": {
+            "Hesami\\Sms\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Hesami",
+            "email": "hesami13@yahoo.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "php": "^7.3",
+        "laravel/framework": "^8.0"
+    }
+}
