@@ -8,4 +8,11 @@ class Sms
 
         return $receptor."  ".$message;
     }
+
+
+    public static function getBalance(){
+        return 0;
+    }
+
+
 }
